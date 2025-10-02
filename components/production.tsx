@@ -27,26 +27,50 @@ export default function Production() {
       </div>
       {/* Жёлтые прямоугольники с изображением и текстом (2 блока, друг под другом) */}
       <div className="mt-8 w-full max-w-7xl mx-auto flex flex-col gap-8 items-center">
-        {/* Первый блок: Фанера */}
-        <Link href="/proizvodstvo#raspyl" className="w-full">
+        {/* Первый блок: Фрезерование */}
+        <Link href="/proizvodstvo#frezervanie" className="w-full">
           <div className="group rounded-2xl bg-[#f3f3f3] h-60 flex flex-row items-center px-0 gap-8 overflow-hidden w-full min-w-[320px] transition-colors duration-300 hover:bg-[#ffc600] cursor-pointer">
-            <img src="/img/proizvodsvo2.jpg" alt="Фанера" className="h-60 w-auto object-cover rounded-none m-0 p-0" style={{marginLeft: 0}} />
+            <img src="/img/proizvodsvo2.jpg" alt="Фрезерование" className="h-60 w-auto object-cover rounded-none m-0 p-0" style={{marginLeft: 0}} />
             <div className="flex flex-col justify-center pl-8 w-full min-w-0">
-              <h3 className="text-3xl font-extrabold text-[#002f45] mb-0 break-words whitespace-pre-line w-full" style={{wordBreak: 'break-word'}}>Промышленный распил</h3>
+              <h3 className="text-3xl font-extrabold text-[#002f45] mb-0 break-words whitespace-pre-line w-full" style={{wordBreak: 'break-word'}}>Фрезерование изделий в промышленных объемах</h3>
               <div className="text-lg text-[#002f45] opacity-80 mt-2">
-                Высокоточный распил листовых материалов по индивидуальным размерам заказчика. Современное оборудование обеспечивает минимальные погрешности и высокую скорость выполнения заказов.
+                Высокоточная обработка фанеры, ДСП, оргалита и других материалов на современных ЧПУ-станках. Получение точных и сложных форм для различных отраслей промышленности.
               </div>
             </div>
           </div>
         </Link>
-        {/* Второй блок: ДСП */}
-        <Link href="/proizvodstvo#shlifovanie" className="w-full">
+        {/* Второй блок: Фланцы и ложементы */}
+        <Link href="/proizvodstvo#flancy" className="w-full">
           <div className="group rounded-2xl bg-[#f3f3f3] h-60 flex flex-row items-center px-0 gap-8 overflow-hidden w-full min-w-[320px] transition-colors duration-300 hover:bg-[#ffc600] cursor-pointer">
-            <img src="/img/proizvodsvo1.jpg" alt="ДСП" className="h-60 w-auto object-cover rounded-none m-0 p-0" style={{marginLeft: 0}} />
+            <img src="/img/proizvodsvo1.jpg" alt="Фланцы и ложементы" className="h-60 w-auto object-cover rounded-none m-0 p-0" style={{marginLeft: 0}} />
             <div className="flex flex-col justify-center pl-8 w-full min-w-0">
-              <h3 className="text-3xl font-extrabold text-[#002f45] mb-0 break-words whitespace-pre-line w-full" style={{wordBreak: 'break-word'}}>Калибрование и шлифование</h3>
+              <h3 className="text-3xl font-extrabold text-[#002f45] mb-0 break-words whitespace-pre-line w-full" style={{wordBreak: 'break-word'}}>Производство фланцев и ложементов</h3>
               <div className="text-lg text-[#002f45] opacity-80 mt-2">
-                Поверхность материала проходит калибровку и шлифование для достижения идеальной гладкости и точной толщины, что особенно важно для дальнейшей обработки и отделки.
+                Изготовление высококачественных фланцев и ложементов из фанеры и других материалов на фрезерных станках с ЧПУ. Индивидуальные программы и точная детализация.
+              </div>
+            </div>
+          </div>
+        </Link>
+        {/* Третий блок: Огнебиозащита */}
+        <Link href="/proizvodstvo#ognebiozashchita" className="w-full">
+          <div className="group rounded-2xl bg-[#f3f3f3] h-60 flex flex-row items-center px-0 gap-8 overflow-hidden w-full min-w-[320px] transition-colors duration-300 hover:bg-[#ffc600] cursor-pointer">
+            <img src="/img/proizvodsvo2.jpg" alt="Огнебиозащита" className="h-60 w-auto object-cover rounded-none m-0 p-0" style={{marginLeft: 0}} />
+            <div className="flex flex-col justify-center pl-8 w-full min-w-0">
+              <h3 className="text-3xl font-extrabold text-[#002f45] mb-0 break-words whitespace-pre-line w-full" style={{wordBreak: 'break-word'}}>Огнебиозащита</h3>
+              <div className="text-lg text-[#002f45] opacity-80 mt-2">
+                Комплексная защита древесных материалов от огня и биологических воздействий. Повышение безопасности и долговечности изделий из фанеры и ДСП.
+              </div>
+            </div>
+          </div>
+        </Link>
+        {/* Четвертый блок: Промышленный окрас */}
+        <Link href="/proizvodstvo#promyshlennyy-okras" className="w-full">
+          <div className="group rounded-2xl bg-[#f3f3f3] h-60 flex flex-row items-center px-0 gap-8 overflow-hidden w-full min-w-[320px] transition-colors duration-300 hover:bg-[#ffc600] cursor-pointer">
+            <img src="/img/proizvodsvo1.jpg" alt="Промышленный окрас" className="h-60 w-auto object-cover rounded-none m-0 p-0" style={{marginLeft: 0}} />
+            <div className="flex flex-col justify-center pl-8 w-full min-w-0">
+              <h3 className="text-3xl font-extrabold text-[#002f45] mb-0 break-words whitespace-pre-line w-full" style={{wordBreak: 'break-word'}}>Промышленный окрас для древесины и фанеры</h3>
+              <div className="text-lg text-[#002f45] opacity-80 mt-2">
+                Профессиональное нанесение лаков, эмалей, масел и пленочных покрытий. Защита и декоративная отделка древесных материалов в промышленных объемах.
               </div>
             </div>
           </div>
