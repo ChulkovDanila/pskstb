@@ -28,7 +28,7 @@ export default function Home() {
       <div className="mt-10 w-full flex justify-center">
         <AboutCompany />
       </div>
-      <div className="mt-10 w-full flex justify-center">
+      <div id="production" className="mt-10 w-full flex justify-center">
         <Production />
       </div>
       <div className="mt-10 w-full flex justify-center">

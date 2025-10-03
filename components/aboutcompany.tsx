@@ -19,10 +19,10 @@ export default function AboutCompany() {
                 Компания предлагает широкий ассортимент фанеры и древесно-плитных материалов различных видов и размеров. У нас вы найдёте продукцию для любых задач — от строительных до мебельных проектов. Мы постоянно расширяем наш каталог, чтобы удовлетворить потребности каждого клиента.
               </p>
             </div>
-            <a href="#" onClick={handleComingSoon} className="ml-4 whitespace-nowrap text-[#ffc600] font-bold text-lg flex items-center gap-2 hover:text-[#002f45] transition-colors group">
+            <a href="#" onClick={handleComingSoon} className="ml-4 whitespace-nowrap text-[#002f45] font-bold text-lg flex items-center gap-2 hover:text-[#ffc600] transition-colors group">
               Подробнее
-              <span className="inline-block transition-all duration-200 group-hover:translate-x-2 group-hover:[&>svg]:stroke-[#002f45]">
-                <svg width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="#ffc600" strokeWidth="2" className="transition-colors duration-200">
+              <span className="inline-block transition-all duration-200 group-hover:translate-x-2 group-hover:[&>svg]:stroke-[#ffc600]">
+                <svg width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="#002f45" strokeWidth="2" className="transition-colors duration-200">
                   <path d="M5 12h14M13 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </span>
